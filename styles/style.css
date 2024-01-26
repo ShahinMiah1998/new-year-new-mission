@@ -226,3 +226,173 @@ body {
   width: 100px;
   height: auto;
 }
+
+/**************************** Holiday Sal ******************************/
+.holiday_sale {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 80px;
+  text-align: center;
+}
+.top_image{
+  display: flex;
+  width: 100%;
+  justify-content: bottom;
+  position: relative;
+}
+
+.image_one {
+  width: 40%;
+  position: relative;
+  top: 200px;
+  left: 80px;
+}
+.image_one img{
+  width: 100%;
+}
+
+.image_two {
+  width: 20%;
+  position: absolute;
+  top: 50px;
+  left: 620px;
+  z-index: 10;
+}
+.image_two img {
+  width: 100%;
+}
+.image_three {
+  width: 30%;
+}
+.image_three img {
+  width: 100%;
+  position: relative;
+  left: 310px;
+  top: 36px;
+}
+
+.bottom_image{
+  width: 100%;
+}
+.bottom_image img{
+  width: 100%;
+}
+.holiday_sale h5 {
+  margin-bottom: 20px;
+}
+.holiday_sale h1 {
+  color: #000;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.holiday_sale span {
+  color: #F00;
+ 
+}
+
+/**************************** Portfolio Sal ******************************/
+.portfolio {
+  width: 80%;
+  margin: 80px auto;
+  text-align: center;
+}
+.portfolio h5 {
+  font-size: 20px;
+}
+.portfolio h1{
+  color: #F00;
+  font-size: 40px;
+}
+.photo_frame, .photo_frametwo{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.photo_item{
+  width: 32%;
+}
+.photo_item img{
+  width: 100%;
+}
+
+
+.news_letter{
+  background-color: #f1d7d7;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 0;
+  margin-bottom: 80px;
+}
+.letter_content{
+  width: 70%;
+  margin: auto;
+}
+.letter_content h1 {
+  font-size: 40px;
+  color: #000;
+  margin: 15px 0;
+}
+.letter_content p{
+  margin-bottom: 30px;
+}
+.input input{
+  font-size: 15px;
+  padding: 8px 40px;
+  border: none;
+}
+.input {
+  width: 50%;
+  border-radius: 25px;
+  margin: auto;
+  background-color: #ffffff;
+}
+.email {
+  padding: 8px 50px;
+}
+.input .submit{
+  background-color: #F00;
+}
+
+
+.footer_area{
+  color: #fff;
+  width: 100%;
+  background-color: #070211;
+  padding: 80px 0;
+}
+.footer_area hr {
+  border: 1px solid #424141;
+}
+.containerr{
+  width: 80%;
+  margin: auto
+}
+.top_content{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.right_content{
+  justify-content: center;
+  align-items: center;
+}
+.right_content img{
+  width: 15px;
+}
+.icon_area{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.icon_area img {
+  width: 40px;
+  height: auto;
+  margin-right: 15px;
+}
+.bottom_content{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
